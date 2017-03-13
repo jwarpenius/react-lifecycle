@@ -7,7 +7,7 @@ var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 })
 module.exports = {
   entry: [
-    './app/ParentComponent.js'
+    './app/main.js'
   ],
   output: {
     path: __dirname + '/dist',
